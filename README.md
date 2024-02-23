@@ -1,0 +1,1 @@
+Proyecto Cahipun en donde se utilizan tecnologías como HTML , CSS , Framework Bootstrap y Javascript , juego en donde el usuario debe seleccionar la imagen con su opción preferida ("Piedra","papel" o "tijera") con el fin de derrotar a la CPU
