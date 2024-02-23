@@ -1,0 +1,72 @@
+#vs , #titulo , #btn-inicio{
+    font-family: "Protest Riot", sans-serif; 
+}
+
+@keyframes borderColorChange {
+    0% {
+      border-color: red;
+    }
+    25% {
+      border-color: blue;
+    }
+    50% {
+      border-color: green;
+    }
+    75% {
+      border-color: orange;
+    }
+    100% {
+      border-color: red;
+    }
+}
+
+.navbar-brand {
+    display: inline-block;
+    border: 10px solid red; /* Ancho y estilo del borde inicial */
+    border-radius: 5px; /* Opcional: Añadir bordes redondeados */
+    padding: 10px 20px; /* Ajustar según sea necesario */
+    text-decoration: none;
+    color: #000; /* Color del texto */
+    font-weight: bold;
+    animation: borderColorChange 4s infinite; /* Aplicar la animación */
+}
+#titulo{
+    font-size: 25px;
+}
+
+#vs{
+    width: 150px;
+    height: 150px;
+}
+
+#mensaje {
+    display: inline-block;
+}
+
+.opcion{
+    width: 100px;
+    height: 100px;
+}
+
+#opcionUsuario , #opcpu , .piedra , .papel , .tijera{
+    width: 150px;
+    height: 150px;
+}
+
+#btn-inicio:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+
+.piedra:hover{
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+.papel:hover{
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+.tijera:hover{
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
